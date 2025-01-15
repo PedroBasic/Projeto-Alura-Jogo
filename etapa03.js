@@ -5,6 +5,7 @@ alert('Bem vindo ao sistema de pontuação!!')
 
 let suaPontuacao = prompt('Informa sua pontuação? ')
 
+// Aqui utilizamos a estrutura '>=' maior ou igual a.
 if(suaPontuacao >= 100){
     alert("Parabéns, você venceu!")
 }else{

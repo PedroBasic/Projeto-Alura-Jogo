@@ -7,7 +7,7 @@ alert('(Segunda, Terça, Quarta, Quinta e Sexta).')
 
 let respostaUser = prompt('O dia da semana é:');
 
-// utilizamos o operador 'ou' que nas liguagem a sintaxe pode ser 'or' ou '||'.
+// utilizamos o operador 'ou' que nas liguagem a sintaxe pode ser 'or' ou '||'
 if (respostaUser == 'Sabado' || respostaUser == 'Domingo'){
     console.log("Bom fim de semana!");
 }else{

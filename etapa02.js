@@ -4,6 +4,7 @@ alert('Informe um número?')
 
 let numeroDigitado = prompt("Digite um número: ")
 
+// Aqui utilizamos a estrutura de cotrole '<' significa menor.
 if (numeroDigitado < 0){
     alert(`O número ${numeroDigitado} e negativo`);
 }else{
